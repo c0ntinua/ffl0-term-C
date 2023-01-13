@@ -1,0 +1,15 @@
+#include <ctype.h>
+#include <errno.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <termios.h>
+#include <unistd.h>
+#include <stdbool.h>
+#include <math.h>
+#include "global.c"
+#include "raw_mode.c"
+#include "cursor.c"
+#include "buffer.c"
+#include "filter.c"
+#include "respond.c"
+#include "main.c"
